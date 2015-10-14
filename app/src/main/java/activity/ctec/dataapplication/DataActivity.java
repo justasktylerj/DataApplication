@@ -38,6 +38,7 @@ public class DataActivity extends AppCompatActivity
 
     private void trueYes()
     {
+        answer = true;
         if(answer == true)
         {
             right.setVisibility(View.VISIBLE);
@@ -52,6 +53,7 @@ public class DataActivity extends AppCompatActivity
 
     private void falseNo()
     {
+        answer = true;
         if(answer == true)
         {
             right.setVisibility(View.INVISIBLE);
